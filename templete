@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+
+#define MOD 1000000007
+
+int main(){
+	
+}
+
+cout << fixed << setprecision(10);
+
+for(i=0; i<N; i++){
+    cin >> N;
+}
+
+cin >> N;
+cin >> N >> b;
+cin >> N >> b >> c;
+cin >> N >> b >> c >> d;
+
+cout << ans << endl;
+cout << ans << b << endl;
+cout << ans << b << c << endl;
+
+cout << "i: "<< i << endl;
+cout << "j: "<< j << endl;
