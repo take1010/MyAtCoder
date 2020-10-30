@@ -15,13 +15,13 @@ for(i=0; i<N; i++){
 }
 
 cin >> N;
-cin >> N >> b;
-cin >> N >> b >> c;
-cin >> N >> b >> c >> d;
+cin >> N >> A;
+cin >> N >> A >> B;
+cin >> N >> A >> B >> C;
 
 cout << ans << endl;
-cout << ans << b << endl;
-cout << ans << b << c << endl;
+cout << ans << AAA << endl;
+cout << ans << AAA << AAA << endl;
 
 cout << "i: "<< i << endl;
 cout << "j: "<< j << endl;
