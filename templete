@@ -10,14 +10,13 @@ int main(){
 
 cout << fixed << setprecision(10);
 
-for(i=0; i<N; i++){
-    cin >> N;
-}
-
 cin >> N;
 cin >> N >> A;
 cin >> N >> A >> B;
 cin >> N >> A >> B >> C;
+
+
+for(i=0; i<N; i++) cin >> NNN;
 
 cout << ans << endl;
 cout << ans << AAA << endl;
