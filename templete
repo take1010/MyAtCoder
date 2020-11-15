@@ -22,5 +22,8 @@ cout << ans << endl;
 cout << ans << AAA << endl;
 cout << ans << AAA << AAA << endl;
 
+cout << "Yes" << endl;
+cout << "No" << endl;
+
 cout << "i: "<< i << endl;
 cout << "j: "<< j << endl;
