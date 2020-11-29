@@ -5,7 +5,8 @@ typedef long long ll;
 #define MOD 1000000007
 
 int main(){
-	
+    
+	return 0;
 }
 
 cout << fixed << setprecision(10);
