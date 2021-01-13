@@ -21,9 +21,5 @@ int main(){
     rep(i, a.size()) cout << a[i] << endl;
     // > 3 1 4
 
-
-
-
-
 	return 0;
 }

@@ -1,4 +1,5 @@
 {
+    "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
         "iostream": "cpp",
         "ostream": "cpp",
@@ -72,3 +73,16 @@
         "valarray": "cpp"
     }
 }
+{
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    "code-runner.runInTerminal": true,
+    "code-runner.terminalRoot": "/mnt/",
+    "code-runner.executorMap": {
+      "cpp": "cd $dir && g++ -std=c++11 -Wall -pedantic \"$fileName\" -o \"$fileNameWithoutExt.out\" && $dir\"$fileNameWithoutExt.out\""
+      // https://qiita.com/janus_wel/items/07140fcd1127b568087d
+      // -std=c++11   対象ソースが C++11 準拠としてコンパイルする
+      // -Wall    基本的な警告オプションを on にする
+      // -pedantic ISO C/C++ に存在しない文法を警告する
+    }
+  }
+  
