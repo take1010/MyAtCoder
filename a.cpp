@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+// #include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 typedef long long ll;
 
@@ -8,10 +9,7 @@ template<class T>bool chmax(T &a, const T &b) { if (a<b) { a=b; return 1; } retu
 template<class T>bool chmin(T &a, const T &b) { if (b<a) { a=b; return 1; } return 0; }
 
 int main(){
-    string a,b;
-    cin >> a >> b;
     
-    cout << max(a[0]-'0'+a[1]-'0'+a[2]-'0', b[0]-'0'+b[1]-'0'+b[2]-'0') << endl;
-    
+
 	return 0;
 }
