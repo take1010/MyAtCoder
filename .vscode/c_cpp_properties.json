@@ -3,7 +3,7 @@
         {
             "name": "WSL",
             "intelliSenseMode": "gcc-x64",
-            "compilerPath": "\\usr\\bin\\gcc",
+            "compilerPath": "/usr/bin/gcc",
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:\\Users\\tk100\\AppData\\Local\\Packages\\CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc\\LocalState\\rootfs\\usr\\include\\**"
