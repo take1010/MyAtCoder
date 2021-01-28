@@ -13,7 +13,7 @@ int main(){
 }
 
 
-
+/*
 cout << fixed << setprecision(10);
 
 cin >> N;
@@ -33,3 +33,4 @@ cout << "No" << endl;
 
 cout << "i: "<< i << endl;
 cout << "j: "<< j << endl;
+*/
