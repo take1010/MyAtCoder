@@ -8,30 +8,15 @@ template<class T>bool chmax(T &a, const T &b) { if (a<b) { a=b; return 1; } retu
 template<class T>bool chmin(T &a, const T &b) { if (b<a) { a=b; return 1; } return 0; }
 
 int main(){
-	
-	
+	int x, y;
+	cin >> x >> y;
+
+	rep(i, x+1){
+		if(2*i+4*(x-i)==y){
+			cout << "Yes" << endl;
+			return 0;
+		}
+	}
+	cout << "No" << endl;
 	return 0;
 }
-
-
-/*
-cout << fixed << setprecision(10);
-
-cin >> N;
-cin >> N >> A;
-cin >> N >> A >> B;
-cin >> N >> A >> B >> C;
-
-
-for(i=0; i<N; i++) cin >> NNN;
-
-cout << ans << endl;
-cout << ans << AAA << endl;
-cout << ans << AAA << AAA << endl;
-
-cout << "Yes" << endl;
-cout << "No" << endl;
-
-cout << "i: "<< i << endl;
-cout << "j: "<< j << endl;
-*/
