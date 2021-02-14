@@ -13,4 +13,4 @@ STL(cpp標準ライブラリ)の練習コードのファイルです.
 ### others
 AtCoderのその他のコンテストの解答です. 
 ### templete.cpp
-AtCoderの解答用テンプレートです。
+AtCoderの解答用テンプレートです. 
