@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+
+#define rep(i, n) for(int i = 0; i < (int)(n); i++)
+#define MOD 1000000007
+template<class T>bool chmax(T &a, const T &b) { if (a<b) { a=b; return 1; } return 0; }
+template<class T>bool chmin(T &a, const T &b) { if (b<a) { a=b; return 1; } return 0; }
+
+int main(){
+	ll n;
+    cin >> n;
+    set<ll> s;
+
+    for(ll i=2; i*i<=n; i++){
+        ll tmp;
+        tmp=i;
+        while(1){
+            tmp *= i;
+            if(tmp<=n) s.insert(tmp);
+            else break;
+        }
+    }
+
+    cout << n-s.size() << endl;
+	
+	return 0;
+}
