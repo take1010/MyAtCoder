@@ -8,31 +8,25 @@ typedef long long ll;
 template<class T>bool chmax(T &a, const T &b) { if (a<b) { a=b; return 1; } return 0; }
 template<class T>bool chmin(T &a, const T &b) { if (b<a) { a=b; return 1; } return 0; }
 
+const ll INF = 1LL << 60;
+
 int main(){
-	
+	int N;
+    cin >> N;
+    vector<ll> h(N);
+    
+    rep(i, N) cin >> h[i];
+
+    vector<ll> dp(N, INF);
+    dp[0]=0;
+
+    for(int i=1; i<N; i++){
+        chmin(dp[i], dp[i-1]+abs(h[i]-h[i-1]));
+        if(i>1) chmin(dp[i], dp[i-2]+abs(h[i]-h[i-2]));
+    }
+    
+    coutALL(dp);
+    cout << dp[N-1] << endl;
 	
 	return 0;
 }
-
-
-/*
-cout << fixed << setprecision(10);
-
-cin >> N;
-cin >> N >> A;
-cin >> N >> A >> B;
-cin >> N >> A >> B >> C;
-
-
-for(i=0; i<N; i++) cin >> NNN;
-
-cout << ans << endl;
-cout << ans << AAA << endl;
-cout << ans << AAA << AAA << endl;
-
-cout << "Yes" << endl;
-cout << "No" << endl;
-
-cout << "i: "<< i << endl;
-cout << "j: "<< j << endl;
-*/
