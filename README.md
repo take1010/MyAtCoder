@@ -1,16 +1,23 @@
-# MyAtCoder
-## フォルダ構成とファイルについて
-### .vscode
+# フォルダ構成とファイルについて
+## .vscode
 VSCの設定ファイルです. 
-### ABC
+## ABC
 AtCoder Beginner Contestの解答です. 
-### ARC
+## ARC
 AtCoder Regular Contestの解答です. 
-### STL_cpp
+## STL_cpp
 STL(cpp標準ライブラリ)の練習コードのファイルです. 
-### ALGO_and_DATA
+## ALGO_and_DATA
 書籍「アルゴリズムとデータ構造」の章末問題などのコードです. 
-### others
+## others
 AtCoderのその他のコンテストの解答です. 
-### temp.cpp
+## templete.cpp
 AtCoderの解答用テンプレートです. 
+
+# shellについて
+## ABCの場合
+・"./shell/mkABC.sh": ファイル作成
+・"./shell/mvABC.sh": ファイル移動
+## ARCの場合
+・"./shell/mkARC.sh": ファイル作成
+・"./shell/mvARC.sh": ファイル移動
