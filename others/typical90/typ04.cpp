@@ -17,15 +17,13 @@ int main(){
     vector<vector<ll>> b(h, vector<ll>(w));
     vector<ll> hsum(h);
     vector<ll> wsum(w);
-    
+
     rep(i, h) rep(j, w) {
         cin >> a[i][j];
         hsum[i] += a[i][j];
         wsum[j] += a[i][j];
     }
-
+    
     rep(i, h) rep(j, w) b[i][j] = hsum[i]+wsum[j]-a[i][j]; 
-    // coutALL(hsum); 
-    // coutALL(wsum); 
     coutVEC2(b);
 }
