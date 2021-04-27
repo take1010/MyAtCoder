@@ -1,4 +1,5 @@
 #! /bin/sh
+mkdir ABC$1
 mv b$1a.cpp ABC$1
 mv b$1b.cpp ABC$1
 mv b$1c.cpp ABC$1
