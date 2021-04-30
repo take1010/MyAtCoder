@@ -9,6 +9,8 @@ AtCoder Regular Contestの解答です.
 AtCoderのその他のコンテストの解答です. 
 ## templete.cpp
 AtCoderの解答用テンプレートです. 
+## memo.txt
+C++用メモです. 
 
 # shellについて
 ## ABCの場合
