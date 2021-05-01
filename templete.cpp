@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
-#include <atcoder/all>
+// #include <atcoder/all>
 using namespace std;
-using namespace atcoder;
+// using namespace atcoder;
 typedef long long ll;
 const ll MOD = 1000000007;
 
